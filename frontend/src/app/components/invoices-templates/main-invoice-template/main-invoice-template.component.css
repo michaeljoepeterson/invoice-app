@@ -1,0 +1,11 @@
+.standard-table, .standard-table > thead > tr > th, .standard-table > tbody > tr > td {
+    border: 1px solid black;
+}
+
+.standard-table > thead > tr > th, .standard-table > tbody > tr > td {
+    padding: 0.5em;
+}
+
+.text-box{
+    @apply flex border-black border-2 flex-col w-1/2 p-2
+}

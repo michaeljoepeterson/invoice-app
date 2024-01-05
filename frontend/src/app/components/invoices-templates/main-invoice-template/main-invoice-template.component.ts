@@ -3,13 +3,13 @@ import { Component } from '@angular/core';
 import html2pdf from 'html2pdf.js';
 
 @Component({
-  selector: 'app-pdf-test',
+  selector: 'app-main-invoice-template',
   standalone: true,
   imports: [],
-  templateUrl: './pdf-test.component.html',
-  styleUrl: './pdf-test.component.css'
+  templateUrl: './main-invoice-template.component.html',
+  styleUrl: './main-invoice-template.component.css'
 })
-export class PdfTestComponent {
+export class MainInvoiceTemplateComponent {
 
   savePdf(){
     var element = document.getElementById('pdf');
